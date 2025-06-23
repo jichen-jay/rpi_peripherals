@@ -1,2 +1,7 @@
 [target.armv7-unknown-linux-gnueabihf]
 linker = "arm-linux-gnueabihf-gcc"
+
+
+[build]
+# Optional: Set default target for this project
+target = "armv7-unknown-linux-gnueabihf"
